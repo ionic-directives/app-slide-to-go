@@ -1,8 +1,8 @@
 {
-  "name": "Testing",
+  "name": "slidetogo",
   "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "author": "Martin Goiriz",
+  "homepage": "https://martingoiriz.com.ar",
   "private": true,
   "scripts": {
     "start": "ionic-app-scripts serve",

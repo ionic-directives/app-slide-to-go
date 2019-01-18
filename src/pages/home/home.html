@@ -1,14 +1,23 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Slide to go
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+
+  <ion-grid id="slide-button">
+    <ion-row>
+      <ion-col class="first-col">
+        <p class="slide-title">Firs paragraph</p>
+        <p>Second paragraph</p>
+      </ion-col>
+      <ion-col class="second-col">
+        <ion-icon slide-to-go name="ios-arrow-dropright-circle-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
